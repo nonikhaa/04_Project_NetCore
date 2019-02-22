@@ -12952,11 +12952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\noni\\c#\\dotNetCore\\vsstudio\\_04_Example\\_04_Example\\_04_Example.csproj",
+      "projectUniqueName": "D:\\noni\\git-repository\\04_Project_NetCore\\_04_Example\\_04_Example.csproj",
       "projectName": "_04_Example",
-      "projectPath": "D:\\noni\\c#\\dotNetCore\\vsstudio\\_04_Example\\_04_Example\\_04_Example.csproj",
+      "projectPath": "D:\\noni\\git-repository\\04_Project_NetCore\\_04_Example\\_04_Example.csproj",
       "packagesPath": "C:\\Users\\LENOVOB490\\.nuget\\packages\\",
-      "outputPath": "D:\\noni\\c#\\dotNetCore\\vsstudio\\_04_Example\\_04_Example\\obj\\",
+      "outputPath": "D:\\noni\\git-repository\\04_Project_NetCore\\_04_Example\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
