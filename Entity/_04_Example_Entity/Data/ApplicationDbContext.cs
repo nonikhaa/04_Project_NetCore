@@ -16,6 +16,7 @@ namespace _04_Example_Entity.Data
 
         public virtual DbSet<MenuMaster> MenuMaster { get; set; }
         public virtual DbSet<UserModel> User { get; set; }
+        public virtual DbSet<RoleModel> RoleModel { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

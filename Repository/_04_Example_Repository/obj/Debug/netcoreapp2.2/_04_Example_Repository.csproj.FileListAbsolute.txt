@@ -1,0 +1,9 @@
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\bin\Debug\netcoreapp2.2\_04_Example_Repository.deps.json
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\bin\Debug\netcoreapp2.2\_04_Example_Repository.dll
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\obj\Debug\netcoreapp2.2\_04_Example_Repository.csproj.CoreCompileInputs.cache
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\obj\Debug\netcoreapp2.2\_04_Example_Repository.AssemblyInfoInputs.cache
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\obj\Debug\netcoreapp2.2\_04_Example_Repository.AssemblyInfo.cs
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\bin\Debug\netcoreapp2.2\_04_Example_Entity.dll
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\bin\Debug\netcoreapp2.2\_04_Example_Entity.pdb
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\obj\Debug\netcoreapp2.2\_04_Example_Repository.csprojAssemblyReference.cache
+D:\noni\git-repository\04_Project_NetCore\Repository\_04_Example_Repository\obj\Debug\netcoreapp2.2\_04_Example_Repository.csproj.CopyComplete
