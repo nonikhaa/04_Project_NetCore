@@ -1,0 +1,8 @@
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\bin\Debug\netcoreapp2.2\_04_Example_Entity.deps.json
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\bin\Debug\netcoreapp2.2\_04_Example_Entity.dll
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\bin\Debug\netcoreapp2.2\_04_Example_Entity.pdb
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\obj\Debug\netcoreapp2.2\_04_Example_Entity.csproj.CoreCompileInputs.cache
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\obj\Debug\netcoreapp2.2\_04_Example_Entity.AssemblyInfoInputs.cache
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\obj\Debug\netcoreapp2.2\_04_Example_Entity.AssemblyInfo.cs
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\obj\Debug\netcoreapp2.2\_04_Example_Entity.dll
+D:\noni\git-repository\04_Project_NetCore\Entity\_04_Example_Entity\obj\Debug\netcoreapp2.2\_04_Example_Entity.pdb

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using _04_Example.Interface;
-using _04_Example.Models;
+using _04_Example_Entity;
+using _04_Example_Entity.Data;
 
 namespace _04_Example.Services
 {

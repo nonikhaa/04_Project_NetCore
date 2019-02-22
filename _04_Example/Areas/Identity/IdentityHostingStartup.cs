@@ -1,5 +1,5 @@
 ﻿using System;
-using _04_Example.Models;
+using _04_Example_Entity.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;

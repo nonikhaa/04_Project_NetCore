@@ -20,4 +20,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\_04_Example_Entity\_04_Example_Entity.csproj" />
+  </ItemGroup>
+
 </Project>
