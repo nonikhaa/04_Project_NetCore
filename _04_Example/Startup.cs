@@ -38,7 +38,7 @@ namespace _04_Example
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<_04_Example.Models.ApplicationDbContext>(options =>
+            services.AddDbContext<_04_Example_Entity.Data.ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
@@ -50,7 +50,7 @@ namespace _04_Example
 
             //services.AddIdentity<ApplicationUser, IdentityRole>()
             services.AddIdentity<IdentityUser, IdentityRole>()
-                .AddEntityFrameworkStores<_04_Example.Models.ApplicationDbContext>()
+                .AddEntityFrameworkStores<_04_Example_Entity.Data.ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
             // Password strength setting

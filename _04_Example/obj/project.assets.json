@@ -4720,6 +4720,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "_04_Example_Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/_04_Example_Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_04_Example_Entity.dll": {}
+        }
       }
     }
   },
@@ -12935,6 +12949,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "_04_Example_Entity/1.0.0": {
+      "type": "project",
+      "path": "../Entity/_04_Example_Entity/_04_Example_Entity.csproj",
+      "msbuildProject": "../Entity/_04_Example_Entity/_04_Example_Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12942,7 +12961,8 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.0",
+      "_04_Example_Entity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12974,7 +12994,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\noni\\git-repository\\04_Project_NetCore\\Entity\\_04_Example_Entity\\_04_Example_Entity.csproj": {
+              "projectPath": "D:\\noni\\git-repository\\04_Project_NetCore\\Entity\\_04_Example_Entity\\_04_Example_Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

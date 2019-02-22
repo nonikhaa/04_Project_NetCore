@@ -1,0 +1,93 @@
+﻿@model _04_Example_Entity.RoleModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Role Management</h1>
+
+@*<div class="card shadow mb-4">*@
+<div class="card-header py-3">
+    <input id="btnAddRole" data-toggle="modal" data-target="#myModalAdd" type="button" class="btn btn-primary" value="Add"/>
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Role Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Role Name</th>
+                        <th>Action</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        @*<th>@Model.RoleName</th>*@
+                        <th>test</th>
+                        <th>
+                            <input id="btnEditRole" data-toggle="modal" data-target="#myModalEdit" type="button" class="btn btn-primary" value="Edit" />
+                            <input id="btnDelete" type="button" class="btn btn-danger" onclick="destroy();" value="Delete" />
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@*</div>*@
+
+
+<!--Modal-->
+<div class="modal fade" id="myModalAdd" role="form">
+    <div class="modal-dialog">
+
+        <!--Modal Content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Create Role</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-inline">
+                    <label style="width:100px;">Role Name</label>
+                    @Html.TextBoxFor(model => model.RoleName, (object)new { autocomplete = "off", @class = "form-control" })
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input id="btnSave" type="submit" class="btn btn-primary" value="Save"/>
+                <input id="btnClose" type="button" class="btn btn-dark" data-dismiss="modal" value="Close"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalEdit" role="form">
+    <div class="modal-dialog">
+
+        <!--Modal Content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Update Role</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-inline">
+                    <label style="width:100px;">Role Name</label>
+                    @Html.TextBoxFor(model => model.RoleName, (object)new { autocomplete = "off", @class = "form-control" })
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input id="btnUpdate" type="submit" class="btn btn-primary" value="Update" />
+                <input id="btnClose" type="button" class="btn btn-dark" data-dismiss="modal" value="Close" />
+            </div>
+        </div>
+    </div>
+</div>

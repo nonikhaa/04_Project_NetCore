@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using _04_Example.Areas.Identity.Data;
 
-namespace _04_Example.Models
+namespace _04_Example_Entity.Data
 {
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
@@ -17,6 +15,7 @@ namespace _04_Example.Models
         }
 
         public virtual DbSet<MenuMaster> MenuMaster { get; set; }
+        public virtual DbSet<UserModel> User { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
